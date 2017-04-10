@@ -3,7 +3,6 @@ $( document ).ready(function() {
     clickEvents();
     $("#xWin").html(xWin);
 $("#oWin").html(yWin);
-alert("X starts the game click on the blocks to place your X or O")
 });
 var turn = 1;
 var xWin = 0;
