@@ -1,26 +1,25 @@
 #postalCode  {
     background-color: transparent;
     border-color: black;
-    width: 270px;
+    width: 100px;
     color: white;
 }
-/*#lookupWeatherForPostalCode{
-    height: 45px;
-    width: 45px;
-}*/
+#lookupWeatherForPostalCode{
+    color: black;
+}
  #map {
         height: 350px;
         width: 100%;
         border-top: none;
        }
        body {
- background-image: url("shipmaplybkg.jpg");
+ background-image: url("zeldabkg.jpg");
  background-size: 100% 100%;
  font-family: 'Ruslan Display', cursive;
  color: black;
 
 }
-#weatherly {
+#maply {
     font-size: 60px;
 }
 #socialbtn {
@@ -34,7 +33,7 @@
     font-size: 30px;
 }
 #rmv{
-    background-image: url(https://wallpaperscraft.com/image/compass_map_shadow_11039_1080x1920.jpg);
+    /*background-image: url(shiekah.png);*/
     background-repeat: repeat;
  background-size: cover;
  border-style: inset;
@@ -50,4 +49,7 @@
 }
 #templateDiv {
     height: 100%;
+}
+nav {
+    text-align: center;
 }

@@ -1,10 +1,11 @@
 body {
- background-image: url(http://www.rickyneath.com/backgrounds/8.jpg);
+ background-image: url(firewatch.jpg);
  background-size: 100% 100%;
  font-family: 'Cabin Sketch', cursive;
 }
 #weatherly {
     font-size: 60px;
+    text-align: center;
 }
 #socialbtn {
     margin: 0px 20px;
@@ -17,10 +18,11 @@ body {
     font-size: 30px;
 }
 #rmv{
-    background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/366_Grungy_Web/02b.png);
+    color: white;
+    background-image: url(firewatch2.jpg);
     background-repeat: repeat;
- background-size: cover;
- border-style: inset;
+    background-size: cover;
+    border-style: inset;
      height: 425px; 
      width: 300px; 
      margin-top: 80px;
@@ -59,4 +61,8 @@ body {
 
 .flip-side-2 {
     transform: rotateY( 180deg ) !important;
+}
+
+#center {
+    text-align: center;
 }

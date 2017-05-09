@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Weather</title>
     <!--font awesome-->
     <script src="https://use.fontawesome.com/0ab05c246f.js"></script>
     <!-- jQuery -->
@@ -27,35 +28,28 @@
 <body>
 
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
-    <nav class="navbar">
-
-        <a id="weatherly" style="color: black; background-color: transparent;" class="navbar-brand" href="#">WEATHERLY</a>
-
-
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fjacobwilliams1.github.io%2F&amp;src=sdkpreparse" target="_blank"
+    <!--<nav class="navbar">-->
+        <h1 id="weatherly">WEATHERLY</h1>
+        <!--<a id="weatherly" style="color: black; background-color: transparent;" href="#">WEATHERLY</a>-->
+<div id="center" class="col-md-12">
+        <!--<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fjacobwilliams1.github.io%2F&amp;src=sdkpreparse" target="_blank"
             id="socialbtn" class="btn btn-social-icon btn-facebook">
             <span class="fa fa-facebook"></span>
-        </a>
-        <!--<div class="dropdown pull-right">
-            <button style="height: 50px; width: 50px; background-color: transparent" class="glyphicon glyphicon-plus dropdown-toggle pull-right"
-                type="button" data-toggle="dropdown"></button>
-            <ul style="width: 300px" class="dropdown-menu">
-                <li>
-                    -->
-                    <label>Enter your current location: <input type="text" id="postalCode" placeholder="CURRENT LOCATION" /></label>
-                    <button style="background-color: transparent" type="button" id="lookupWeatherForPostalCode">Lookup Weather</button>
-                </li>
-        </div>
-        </ul>
-    </nav>
+        </a>-->
+        <label>Enter your current location: <input type="text" id="postalCode" placeholder="Enter your location" /></label>
+        <button style="background-color: transparent" type="button" id="lookupWeatherForPostalCode">Lookup Weather</button>
+</div>
+    <!--</nav>-->
 
 
 
@@ -100,7 +94,7 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 </body>
 
 

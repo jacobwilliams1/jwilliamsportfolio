@@ -1,4 +1,3 @@
-alert("Hello, make sure to click the FACEBOOK button and share this!!");
 // ************************************
 // ** Making a Container for my card **
 // ************************************

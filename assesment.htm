@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Maply</title>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 
@@ -26,21 +27,22 @@
 
 <body>
     <nav class="navbar">
-
-        <a id="weatherly" style="color: black; background-color: transparent;" class="navbar-brand" href="#">MAPLY</a>
-
-
+<div class="col-md-12">
+    <h1 id="maply">Lost Traveler</h1>
+        <!--<a id="maply" style="color: black; background-color: transparent;" class="navbar-brand" href="#">MAPLY</a>-->
+</div>
+<!--
         <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fjacobwilliams1.github.io%2F&amp;src=sdkpreparse" target="_blank"
             id="socialbtn" class="btn btn-social-icon btn-facebook">
             <span class="fa fa-facebook"></span>
-        </a>
+        </a>-->
         <!--<div class="dropdown pull-right">
             <button style="height: 50px; width: 50px; background-color: transparent" class="glyphicon glyphicon-plus dropdown-toggle pull-right"
                 type="button" data-toggle="dropdown"></button>
             <ul style="width: 300px" class="dropdown-menu">
                 <li>
                     -->
-                    <label style="font-size: 25px" >Enter location: <input type="text" id="postalCode" placeholder="CURRENT LOCATION" /></label>
+                    <label style="font-size: 15px" >Enter location: <input type="text" id="postalCode" placeholder="Zip Code" style="color:black"/></label>
                     <button style="background-color: transparent" type="button" class="glyphicon glyphicon-globe btn-lg" id="lookupWeatherForPostalCode">
                     </button>
                 </li>

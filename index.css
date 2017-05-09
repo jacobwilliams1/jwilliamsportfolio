@@ -37,3 +37,6 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+#weatherlypage{
+    background: url(weatherlypage.png);
+}
